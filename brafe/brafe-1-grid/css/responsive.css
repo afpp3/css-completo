@@ -1,0 +1,15 @@
+@media (max-width: 739px) {
+  .menu-nav ul {
+    float: none;
+    margin-top: 10px;
+  }
+
+  .menu-nav ul li a {
+    margin: auto;
+    padding: 8px 8px 8px 0;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
+}

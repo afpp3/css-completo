@@ -1,0 +1,152 @@
+@media (max-width: 739px) {
+  .menu-nav {
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .sobre-container {
+    max-width: 720px;
+  }
+
+  .sobre-item {
+    width: 340px;
+  }
+
+  .sobre>p {
+    font-size: 1.125em;
+  }
+
+  .produtos-container {
+    max-width: 720px;
+  }
+
+  .produto-item {
+    width: 220px;
+  }
+
+  .locais {
+    max-width: 720px;
+  }
+
+  .locais-item>div,
+  .locais-item img {
+    width: 340px;
+  }
+
+  .locais-item>div p {
+    margin-bottom: 25px;
+  }
+
+  .newsletter-container {
+    max-width: 720px;
+  }
+
+  .newsletter-info {
+    width: 340px;
+  }
+
+  .newsletter form {
+    width: 340px;
+    margin: 20px auto;
+  }
+
+  .newsletter form input {
+    width: 240px;
+    font-size: 1.215em;
+  }
+
+  .newsletter form button {
+    width: 100px;
+    padding: 11px 0;
+  }
+
+  .footer-container {
+    max-width: 720px;
+  }
+
+  .footer-container img {
+    margin-right: 20px;
+  }
+
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+  .intro h1 {
+    font-size: 2.25em;
+  }
+
+  .sobre-container {
+    max-width: 300px;
+  }
+
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .produtos-container {
+    max-width: 300px;
+  }
+
+  .produto-item {
+    margin: 0 auto 20px auto;
+  }
+
+  .locais {
+    max-width: 300px;
+  }
+
+  .locais-item>div,
+  .locais-item img {
+    width: 300px;
+    margin: 0;
+  }
+
+  .newsletter-container {
+    max-width: 300px;
+  }
+
+  .newsletter-info,
+  .newsletter form,
+  .newsletter form input {
+    width: 300px;
+    margin: 15px 0 0 0;
+  }
+
+  .newsletter form button {
+    width: 300px;
+    margin-top: 6px;
+  }
+
+  .footer-container {
+    max-width: 300px;
+  }
+
+  .footer-container p {
+    width: 300px;
+    float: none;
+    margin: 0;
+  }
+
+  .footer-container img {
+    float: none;
+    margin: 24px 0 0 0;
+  }
+}
